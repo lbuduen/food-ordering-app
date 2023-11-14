@@ -6,8 +6,6 @@ import SectionHeaders from "@/components/layout/SectionHeaders";
 export default function Home() {
   return (
     <>
-      <Header />
-
       <Hero />
 
       <HomeMenu />
@@ -27,10 +25,6 @@ export default function Home() {
           <a href="tel:+24478967441" className="text-4xl underline text-gray-600">+244 7896 7441</a>
         </div>
       </section>
-
-      <footer className="border-t p-8 text-center text-gray-500 mt-16">
-        &copy; 2023 All rights reserved
-      </footer>
     </>
   );
 }
