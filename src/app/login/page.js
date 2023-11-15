@@ -23,7 +23,7 @@ export default function LoginPage() {
         <input type="password" disabled={loading} placeholder="password" value={password} onChange={(evt) => setPassword(evt.target.value)} />
         <button type="submit" disabled={loading}>Login</button>
         <label className="block my-4 text-center text-gray-500">or login with provider</label>
-        <button className="flex gap-4 justify-center items-center">
+        <button type="button" className="flex gap-4 justify-center items-center" onClick={() => signIn('google')}>
           <Image src={'/google.png'} alt="" width={24} height={24} />
           Login with Google
         </button>
