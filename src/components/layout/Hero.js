@@ -22,7 +22,7 @@ export default function Hero() {
             Order now
             <Right />
           </button>
-          <button className="flex items-center gap-2">
+          <button className="flex items-center gap-2 border-0">
             Learn more
             <Right />
           </button>
