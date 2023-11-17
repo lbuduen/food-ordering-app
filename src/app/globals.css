@@ -27,7 +27,7 @@ button {
 
 button[type="submit"],
 .submit {
-  @apply border-0 bg-primary text-white
+  @apply border-0 bg-gradient-to-r from-[#f13a01] to-yellow-500 text-white
 }
 
 button[type="submit"]:disabled,
